@@ -1,0 +1,121 @@
+/* Responsive font -> vw */
+
+body {
+  background-color: #f1f1f19c;
+}
+.nav-style {
+  position: relative;
+  background-color: #c6d1d9;
+  min-width: 600px;
+  max-width: 40%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  min-width: 25px;
+  min-height: 25px;
+  width: 2vw;
+  height: 2vw;
+}
+
+.trash {
+  color: red;
+  padding: 0.8rem 1.5rem;
+  background-color: rgba(255, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.trash:hover {
+  background-color: rgba(255, 0, 0, 0.4);
+  color: #fff;
+}
+
+.edit {
+  color: #67869a;
+  background-color: #c6d1d9;
+  padding: 0.8rem 1.4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.edit:hover {
+  background-color: #67869a;
+  color: #c6d1d9;
+}
+
+.contact-card {
+  background-color: #f1f1f1;
+  max-width: 13%;
+  max-height: max-content;
+  min-width: 300px;
+  min-height: 20vh;
+  border-radius: 10px;
+  border: 1px solid #e7e0d84b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.055);
+}
+
+.contact-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #67869a;
+}
+
+.hr {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.342);
+  margin: 0.5rem 0;
+}
+
+.agenda-select {
+  color: #f1f1f1;
+  background-color: #67869a;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px !important;
+}
+.agenda-select:hover {
+  background-color: #e7e0d8;
+  color: #67869a;
+  border-radius: 16px;
+}
+
+.iconos {
+  color: #67869a;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px; /* mismo ancho para todos */
+  height: 20px; /* opcional para uniformidad */
+  vertical-align: middle; /* centra con respecto al texto */
+}
+
+/* Botón personalizado */
+.my-btn {
+  color: #f1f1f1;
+  background-color: #67869a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.my-btn:hover {
+  background-color: #e7e0d8;
+  color: #67869a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container {
+  background-color: #c6d1d96c;
+  border-radius: 10px;
+  max-width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-style {
+  min-width: 500px;
+  background-color: #c6d1d96c;
+  border-radius: 10px;
+  max-width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}

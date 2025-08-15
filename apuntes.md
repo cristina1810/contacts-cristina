@@ -1,0 +1,7 @@
+- Mostrar agendas
+- Crear agenda
+- Seleccionar agenda
+- Mostrar contactos en la agenda
+- Crear contactos en la agenda
+- Eliminar un contacto
+- Modificar un contacto

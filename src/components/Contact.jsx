@@ -1,7 +1,6 @@
 //Componente que representa cada contacto individual con los datos recogidos de la API
 //Muestra información así como los botones para editar y borrar, cuyas funcionalidades
 //se definen en el componente padre
-//EDITAR ESTILO
 
 import Btn from "./Btn";
 import Avatar from "../assets/img/ContactImg.jpg";
